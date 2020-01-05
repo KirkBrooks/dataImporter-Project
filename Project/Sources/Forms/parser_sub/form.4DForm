@@ -1,0 +1,233 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Check Box": {
+					"type": "checkbox",
+					"top": 9,
+					"left": 369,
+					"width": 197,
+					"height": 20,
+					"dataSource": "Form:C1466.hasHeader",
+					"text": "Row 1 is Header",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 11,
+					"left": 21,
+					"width": 117,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "Field delimiter :"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 42,
+					"left": 21,
+					"width": 117,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "Record delimiter :"
+				},
+				"fieldDelims": {
+					"type": "dropdown",
+					"top": 9,
+					"left": 144,
+					"width": 148,
+					"height": 21,
+					"focusable": false,
+					"choiceList": [
+						"Comma",
+						"Tab",
+						"Space",
+						"Other"
+					],
+					"method": "ObjectMethods/fieldDelims.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"recDelims": {
+					"type": "dropdown",
+					"top": 40,
+					"left": 144,
+					"width": 148,
+					"height": 21,
+					"focusable": false,
+					"choiceList": [
+						"Return",
+						"Other"
+					],
+					"method": "ObjectMethods/recDelims.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 65,
+					"left": 143,
+					"width": 258,
+					"height": 20,
+					"dataSource": "Form:C1466.dblQtEscaped",
+					"text": "Double quotes are escaped with \"",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"recDelim_code": {
+					"type": "input",
+					"top": 9,
+					"left": 317,
+					"width": 44,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.delimCode",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"eolDelim_code": {
+					"type": "input",
+					"top": 40,
+					"left": 317,
+					"width": 44,
+					"height": 21,
+					"visibility": "hidden",
+					"dataSource": "Form:C1466.eolCode",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_parse": {
+					"type": "button",
+					"top": 109,
+					"left": 696,
+					"width": 90,
+					"height": 25,
+					"sizingX": "move",
+					"text": "Parse",
+					"stroke": "#696969",
+					"focusable": false,
+					"method": "ObjectMethods/btn_parse.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 113,
+					"left": 1,
+					"width": 137,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "# records to parse :"
+				},
+				"maxRecords": {
+					"type": "input",
+					"top": 111,
+					"left": 146,
+					"width": 44,
+					"height": 21,
+					"dataSource": "Form:C1466.maxRecords",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 113,
+					"left": 201,
+					"width": 197,
+					"height": 16,
+					"stroke": "#6495ED",
+					"textAlign": "left",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"text": "  0 = all records"
+				},
+				"Check Box2": {
+					"type": "checkbox",
+					"top": 86,
+					"left": 143,
+					"width": 238,
+					"height": 20,
+					"dataSource": "Form:C1466.printExc",
+					"text": "Include escaped chars",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"ListBox": {
+					"type": "listbox",
+					"top": 142,
+					"left": 11,
+					"width": 779,
+					"height": 399,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"hideExtraBlankRows": true,
+					"dataSource": "Form:C1466.data",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/ListBox.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": []
+				}
+			}
+		}
+	],
+	"inheritedForm": "subform_borders",
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

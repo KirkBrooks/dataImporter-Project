@@ -1,0 +1,12 @@
+//%attributes = {"invisible":true}
+C_OBJECT:C1216(prosObject)
+C_TEXT:C284(import_text)
+C_TEXT:C284(col1)
+C_TEXT:C284(col2)
+C_TEXT:C284(col3)
+C_TEXT:C284(col4)
+C_TEXT:C284(col5)
+C_TEXT:C284(col6)
+C_TEXT:C284(col7)
+C_COLLECTION:C1488(import_data_col)
+C_TEXT:C284(map)

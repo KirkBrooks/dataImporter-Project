@@ -1,0 +1,66 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 800,
+					"height": 550,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "#1e90ff",
+					"fill": "transparent",
+					"visibility": "hidden"
+				},
+				"Text": {
+					"type": "text",
+					"text": "This is the area of the subform",
+					"top": 207,
+					"left": 164,
+					"width": 469,
+					"height": 56,
+					"stroke": "#b1c4dd",
+					"fontFamily": "Gill Sans Bold",
+					"fontSize": 24,
+					"visibility": "hidden"
+				}
+			}
+		}
+	]
+}

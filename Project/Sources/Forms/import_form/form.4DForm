@@ -1,0 +1,74 @@
+﻿{
+	"destination": "detailScreen",
+	"memorizeGeometry": true,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"tabControl": {
+					"type": "tab",
+					"top": 8,
+					"left": 10,
+					"width": 715,
+					"height": 524,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "tab_list_array",
+					"dataSourceTypeHint": "arrayText",
+					"method": "ObjectMethods/tabControl.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 9,
+					"left": 7,
+					"width": 80,
+					"height": 17,
+					"text": "Trace",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Subform": {
+					"type": "subform",
+					"top": 38,
+					"left": 22,
+					"width": 696,
+					"height": 484,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.subformData",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Subform.4dm"
+				}
+			}
+		}
+	]
+}

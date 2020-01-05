@@ -1,0 +1,116 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"btn_chooseFile": {
+					"type": "button",
+					"top": 3,
+					"left": 2,
+					"width": 50,
+					"height": 23,
+					"text": "File:",
+					"stroke": "#696969",
+					"focusable": false,
+					"method": "ObjectMethods/btn_chooseFile.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 4,
+					"left": 63,
+					"width": 559,
+					"height": 31,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.fileObj.platformPath",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 12,
+					"focusable": false,
+					"enterable": false,
+					"placeholder": "  Click the File button to select the import file",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 22,
+					"left": 508,
+					"width": 113,
+					"height": 13,
+					"sizingX": "move",
+					"dataSource": "\"Size : \"+Form:C1466.fileSize",
+					"stroke": "#808080",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 10,
+					"focusable": false,
+					"enterable": false,
+					"placeholder": "  Click the File button to select the import file",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"import_text": {
+					"type": "input",
+					"top": 74,
+					"left": 8,
+					"width": 767,
+					"height": 454,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "",
+					"fontFamily": "consolas",
+					"fontSize": 13,
+					"hideFocusRing": true,
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/import_text.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "Line endings are converted to CR.",
+					"top": 39,
+					"left": 63,
+					"width": 294,
+					"height": 23,
+					"fontStyle": "italic",
+					"stroke": "#1e90ff"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"inheritedForm": "subform_borders"
+}

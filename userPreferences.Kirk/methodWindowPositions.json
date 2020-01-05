@@ -1,0 +1,212 @@
+﻿{
+	"Sources/Methods/__readMe.4dm": {
+		"left": 579,
+		"top": 340,
+		"width": 1155,
+		"height": 1120
+	},
+	"Sources/Methods/impText__readMe.4dm": {
+		"left": 1014,
+		"top": 189,
+		"width": 996,
+		"height": 877
+	},
+	"Sources/Methods/__UI__readMe.4dm": {
+		"left": 115,
+		"top": 1068,
+		"width": 1096,
+		"height": 722
+	},
+	"Sources/Methods/UI_PROCESS.4dm": {
+		"left": 1014,
+		"top": 189,
+		"width": 996,
+		"height": 877
+	},
+	"Sources/Methods/Import_subform_controller.4dm": {
+		"left": 1933,
+		"top": 478,
+		"width": 847,
+		"height": 846
+	},
+	"Sources/Methods/Import_paramObj.4dm": {
+		"left": 1516,
+		"top": 594,
+		"width": 965,
+		"height": 1046
+	},
+	"Sources/Forms/ui_outline/method.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/ui_outline/ObjectMethods/btn_go.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Methods/dataCol_split_text.4dm": {
+		"left": 286,
+		"top": 247,
+		"width": 968,
+		"height": 1296
+	},
+	"Sources/Methods/dataCol_to_text.4dm": {
+		"left": 1516,
+		"top": 394,
+		"width": 965,
+		"height": 1246
+	},
+	"Sources/Methods/Choose_single_file.4dm": {
+		"left": 399,
+		"top": 178,
+		"width": 997,
+		"height": 981
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 37,
+		"top": 203,
+		"width": 907,
+		"height": 1265
+	},
+	"Sources/Forms/ui_outline/ObjectMethods/btn_next.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/ui_outline/ObjectMethods/btn_back.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/import_sub_1/ObjectMethods/import_text.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/import_sub_1/ObjectMethods/btn_chooseFile.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/import_sub_1/method.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Methods/Import_sub_form_controller.4dm": {
+		"left": 1783,
+		"top": 212,
+		"width": 968,
+		"height": 1296
+	},
+	"Sources/Methods/Parser_sub_form_controller.4dm": {
+		"left": 1783,
+		"top": 212,
+		"width": 968,
+		"height": 1296
+	},
+	"Sources/Forms/parser_sub/method.4dm": {
+		"left": 1855,
+		"top": 299,
+		"width": 994,
+		"height": 734
+	},
+	"Sources/Methods/Parse_text_to_collection.4dm": {
+		"left": 583,
+		"top": 130,
+		"width": 1155,
+		"height": 1095
+	},
+	"Sources/Methods/Text_parse_toCollection.4dm": {
+		"left": 579,
+		"top": 340,
+		"width": 1155,
+		"height": 1120
+	},
+	"Sources/Methods/Parser_init.4dm": {
+		"left": 790,
+		"top": 442,
+		"width": 1155,
+		"height": 1095
+	},
+	"Sources/Methods/Import_updateObj.4dm": {
+		"left": 1550,
+		"top": 566,
+		"width": 996,
+		"height": 677
+	},
+	"Sources/Forms/ui_form/ObjectMethods/btn_back.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	},
+	"Sources/Forms/parser_sub/ObjectMethods/btn_parse.4dm": {
+		"left": 1855,
+		"top": 299,
+		"width": 994,
+		"height": 734
+	},
+	"Sources/Forms/parser_sub/ObjectMethods/fieldDelims.4dm": {
+		"left": 2254,
+		"top": 912,
+		"width": 994,
+		"height": 734
+	},
+	"Sources/Forms/parser_sub/ObjectMethods/recDelims.4dm": {
+		"left": 2254,
+		"top": 912,
+		"width": 994,
+		"height": 734
+	},
+	"Sources/Forms/parser_sub/ObjectMethods/ListBox.4dm": {
+		"left": 1855,
+		"top": 299,
+		"width": 994,
+		"height": 734
+	},
+	"Sources/Methods/Parse_data_collection.4dm": {
+		"left": 1783,
+		"top": 212,
+		"width": 968,
+		"height": 1296
+	},
+	"Sources/Methods/dataCol_parse_to_records.4dm": {
+		"left": 286,
+		"top": 247,
+		"width": 968,
+		"height": 1296
+	},
+	"Sources/Methods/UI_form_controller.4dm": {
+		"left": 1553,
+		"top": 163,
+		"width": 907,
+		"height": 1265
+	},
+	"Sources/Methods/Text_parse_to2Darray.4dm": {
+		"left": 1553,
+		"top": 163,
+		"width": 907,
+		"height": 1265
+	},
+	"Sources/Methods/dataCol_to_2DtextArray.4dm": {
+		"left": 1336,
+		"top": 325,
+		"width": 770,
+		"height": 424
+	},
+	"Sources/Forms/import_sub/ObjectMethods/btn_chooseFile.4dm": {
+		"left": 1971,
+		"top": 154,
+		"width": 1001,
+		"height": 984
+	}
+}

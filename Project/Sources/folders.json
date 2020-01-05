@@ -1,0 +1,163 @@
+﻿{
+	"(Default Tables)": {},
+	"App": {
+		"groups": [
+			"Custom Dialogs",
+			"error handling"
+		],
+		"methods": [
+			"app_method_exists",
+			"app_name_verison",
+			"appObj",
+			"Compiler_Methods",
+			"Compiler_Variables",
+			"Parse_text_to_collection",
+			"Parser_init",
+			"Parser_read_importFile"
+		]
+	},
+	"Custom Dialogs": {
+		"groups": [
+			"objects coord"
+		],
+		"methods": [
+			"4D_ALERT",
+			"4D_alert_Format_text",
+			"4D_alert_test",
+			"4D_FormEvent_text",
+			"4D_get_applicationTypeString",
+			"4D_request",
+			"4D_test_dialogs",
+			"4Dalert_form_controller",
+			"4Dreq_form_controller",
+			"Font_get_size",
+			"Resize_window"
+		],
+		"forms": [
+			"My_alert_dlog",
+			"My_request_dlog"
+		]
+	},
+	"data collection": {
+		"methods": [
+			"dataCol_parse_to_records",
+			"dataCol_split_text",
+			"dataCol_to_2DtextArray",
+			"dataCol_to_text"
+		]
+	},
+	"error handling": {
+		"groups": [
+			"error handling component",
+			"error handling helpers"
+		],
+		"methods": [
+			"ERR_Check",
+			"Err_check_methodParams",
+			"ERR_HANDLER",
+			"ERR_IGNORE",
+			"ERR_INSTALL_HANDLER",
+			"ERR_LOG_ONLY"
+		]
+	},
+	"error handling component": {
+		"methods": [
+			"Err_get_hostMethod",
+			"ERR_set_hostMethod"
+		],
+		"forms": [
+			"Dev_error_dlog"
+		]
+	},
+	"error handling helpers": {
+		"methods": [
+			"Err_CLEAR_4Dvars",
+			"Err_get_errStackCol",
+			"Err_set_object",
+			"ERR_write_logFile"
+		]
+	},
+	"IMPORT": {
+		"methods": [
+			"Import_form_controller",
+			"Import_match_headerToField",
+			"Import_paramObj",
+			"Import_RUN",
+			"IMPORT_TO_RECORDS",
+			"Import_updateObj",
+			"IMPORTER_METHOD"
+		],
+		"forms": [
+			"import_form",
+			"import_sub_3"
+		]
+	},
+	"Import TEXT": {
+		"methods": [
+			"impText__readMe"
+		]
+	},
+	"objects coord": {
+		"methods": [
+			"Object_exists",
+			"OBJECT_GET_bestSize",
+			"OBJECT_GET_CoordObj",
+			"OBJECT_SET_CoordByObj"
+		]
+	},
+	"Parsers": {
+		"methods": [
+			"Text_parse_to2Darray",
+			"Text_parse_toCollection",
+			"Text_parse_toFieldCollections",
+			"Text_parse_toJSONcollection"
+		]
+	},
+	"Structure JSON": {
+		"methods": [
+			"Struct_choose_byMenu",
+			"Struct_collection",
+			"Struct_get_relatedManyFields",
+			"Struct_get_relatedOneField",
+			"Struct_get_tableRelationObj"
+		]
+	},
+	"UI": {
+		"methods": [
+			"__UI__readMe",
+			"Import_sub_form_controller",
+			"Import_subform_controller",
+			"Parse_data_collection",
+			"Parser_sub_form_controller",
+			"UI_form_controller",
+			"UI_PROCESS"
+		],
+		"forms": [
+			"import_sub",
+			"parser_sub",
+			"subform_borders",
+			"ui_form"
+		]
+	},
+	"Utility": {
+		"methods": [
+			"Choose_single_file",
+			"Compiler_Variables_Inter",
+			"File_exists",
+			"isOK",
+			"OB_success",
+			"ProsObj",
+			"ST_get_styleTag",
+			"Str_encode_forStyledText",
+			"Table_get_PKpointer",
+			"TPL_get_element",
+			"WIN_open_inCurrentWinByObj",
+			"WIN_open_inCurrentWindow"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Tables)"
+		]
+	}
+}

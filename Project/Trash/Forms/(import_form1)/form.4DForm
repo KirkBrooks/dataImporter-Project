@@ -1,0 +1,178 @@
+﻿{
+	"destination": "detailScreen",
+	"memorizeGeometry": true,
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"tabControl": {
+					"type": "tab",
+					"top": 8,
+					"left": 10,
+					"width": 649,
+					"height": 30,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Input",
+						"Field Mapping"
+					],
+					"method": "ObjectMethods/tabControl.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Subform": {
+					"type": "subform",
+					"top": 38,
+					"left": 22,
+					"width": 624,
+					"height": 204,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.subformData",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/Subform.4dm"
+				},
+				"Button": {
+					"type": "button",
+					"top": 9,
+					"left": 9,
+					"width": 80,
+					"height": 17,
+					"text": "Trace",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 260,
+					"left": 5,
+					"width": 662,
+					"height": 10,
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"import_text": {
+					"type": "input",
+					"top": 279,
+					"left": 9,
+					"width": 647,
+					"height": 281,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "import_text",
+					"fontFamily": "Consolas",
+					"fontSize": 12,
+					"placeholder": "    Right click for option menu or import file",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"ListBox": {
+					"type": "listbox",
+					"top": 302,
+					"left": 6,
+					"width": 656,
+					"height": 258,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"hideExtraBlankRows": true,
+					"dataSource": "Form:C1466.paramObj.data",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": []
+				},
+				"btn_runImport": {
+					"type": "button",
+					"top": 271,
+					"left": 532,
+					"width": 116,
+					"height": 25,
+					"sizingX": "move",
+					"stroke": "#696969",
+					"focusable": false,
+					"text": "Import Action ",
+					"popupPlacement": "linked",
+					"style": "bevel",
+					"method": "ObjectMethods/btn_runImport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 275,
+					"left": 8,
+					"width": 137,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "Number of records :"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 275,
+					"left": 160,
+					"width": 104,
+					"height": 17,
+					"dataSource": "Form:C1466.paramObj.data.length",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "##,###,##0",
+					"dragging": "none",
+					"dropping": "custom"
+				}
+			}
+		}
+	]
+}

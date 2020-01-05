@@ -1,0 +1,134 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 300,
+	"windowMaxWidth": 1000,
+	"windowMinHeight": 50,
+	"windowMaxHeight": 1000,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onDeactivate"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 28,
+					"left": 0,
+					"width": 428,
+					"height": 77,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "transparent"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 428,
+					"height": 28,
+					"sizingX": "grow",
+					"fill": "#B1C4DD",
+					"stroke": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"message": {
+					"type": "input",
+					"top": 32,
+					"left": 7,
+					"width": 400,
+					"height": 67,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.text",
+					"class": "MonoScrn_12pt",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/message.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"message2": {
+					"type": "input",
+					"top": 110,
+					"left": 7,
+					"width": 400,
+					"height": 21,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "Form:C1466.text2",
+					"stroke": "#808080",
+					"class": "Scrn_10pt",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/message2.4dm"
+				},
+				"btn_close": {
+					"type": "button",
+					"top": 4,
+					"left": 359,
+					"width": 60,
+					"height": 21,
+					"sizingX": "move",
+					"action": "cancel",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Close",
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"form_title": {
+					"type": "input",
+					"top": 4,
+					"left": 7,
+					"width": 290,
+					"height": 22,
+					"dataSource": "Form:C1466.title",
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

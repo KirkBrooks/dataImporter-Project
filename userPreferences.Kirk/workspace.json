@@ -1,0 +1,136 @@
+﻿{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483614,
+			"previousTabType": "method",
+			"previousTabID": 2147483578,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Text_parse_toCollection"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483578,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "__readMe"
+			}
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483642,
+			"previousTabType": "method",
+			"previousTabID": 2147483581,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Parse_text_to_collection"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483581,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Parser_init"
+			}
+		},
+		{
+			"type": "form",
+			"id": 6,
+			"previousTabType": "form",
+			"previousTabID": 2,
+			"formName": "ui_form"
+		},
+		{
+			"type": "form",
+			"id": 2,
+			"formName": "import_sub"
+		},
+		{
+			"type": "form",
+			"id": 4,
+			"formName": "parser_sub"
+		},
+		{
+			"type": "method",
+			"id": 2147483611,
+			"previousTabType": "method",
+			"previousTabID": 2147483575,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Text_parse_to2Darray"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483575,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "UI_form_controller"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483634,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "__UI__readMe"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483605,
+			"previousTabType": "method",
+			"previousTabID": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "UI_PROCESS"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "impText__readMe"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483624,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "dataCol_to_2DtextArray"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483627,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Import_subform_controller"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483602,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Import_paramObj"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483632,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Import_updateObj"
+			}
+		}
+	]
+}

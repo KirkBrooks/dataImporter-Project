@@ -1,0 +1,148 @@
+﻿{
+	"destination": "detailScreen",
+	"windowMinWidth": 428,
+	"windowMaxWidth": 428,
+	"windowMinHeight": 100,
+	"windowMaxHeight": 1000,
+	"bottomMargin": 10,
+	"menuBar": "Menu Bar #1",
+	"markerBody": 185,
+	"markerBreak": 264,
+	"markerFooter": 285,
+	"events": [
+		"onLoad",
+		"onDeactivate"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"backgroundRect": {
+					"type": "rectangle",
+					"top": 108,
+					"left": 0,
+					"width": 428,
+					"height": 39,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 428,
+					"height": 28,
+					"sizingX": "grow",
+					"fill": "#B1C4DD",
+					"stroke": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"message": {
+					"type": "input",
+					"top": 32,
+					"left": 7,
+					"width": 400,
+					"height": 67,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.message",
+					"class": "MonoScrn_12pt",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"userInput": {
+					"type": "input",
+					"top": 112,
+					"left": 7,
+					"width": 400,
+					"height": 35,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.userInput",
+					"class": "MonoScrn_12pt",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/userInput.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_cancel": {
+					"type": "button",
+					"top": 152,
+					"left": 248,
+					"width": 80,
+					"height": 23,
+					"action": "cancel",
+					"shortcutKey": ".",
+					"shortcutAccel": true,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "Cancel",
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_accept": {
+					"type": "button",
+					"top": 152,
+					"left": 342,
+					"width": 80,
+					"height": 23,
+					"shortcutKey": "[Enter]",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"focusable": false,
+					"text": "OK",
+					"style": "bevel",
+					"method": "ObjectMethods/btn_accept.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"form_title": {
+					"type": "input",
+					"top": 4,
+					"left": 7,
+					"width": 410,
+					"height": 22,
+					"stroke": "#FFFFFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="dataImporter2" uuid="D9DEDE4E9EA1443188D35D55E39A69EF" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" data_file_path=":dataImporter2.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

@@ -1,0 +1,343 @@
+﻿{
+	"methods": {
+		"Import_form_controller": {
+			"timeStamp": "2019-10-30T13:56:03.240Z"
+		},
+		"impText__readMe": {
+			"timeStamp": "2019-10-29T17:23:47.410Z"
+		},
+		"dataCol_to_text": {
+			"timeStamp": "2019-10-30T15:59:20.502Z"
+		},
+		"4Dalert_form_controller": {
+			"timeStamp": "2019-10-26T21:52:03.321Z"
+		},
+		"OBJECT_GET_CoordObj": {
+			"timeStamp": "2019-10-26T21:52:03.327Z"
+		},
+		"Parse_text_to_collection": {
+			"timeStamp": "2020-01-05T18:57:23.568Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "incapable"
+			}
+		},
+		"Choose_single_file": {
+			"timeStamp": "2019-10-30T14:26:16.262Z"
+		},
+		"4Dreq_form_controller": {
+			"timeStamp": "2019-10-26T21:52:03.322Z"
+		},
+		"4D_ALERT": {
+			"timeStamp": "2019-10-26T21:52:03.320Z",
+			"attributes": {
+				"preemptive": "incapable"
+			}
+		},
+		"4D_get_applicationTypeString": {
+			"timeStamp": "2019-10-26T21:52:03.318Z"
+		},
+		"app_method_exists": {
+			"timeStamp": "2019-10-26T21:52:03.311Z"
+		},
+		"ERR_write_logFile": {
+			"timeStamp": "2019-10-26T21:52:03.316Z"
+		},
+		"ERR_IGNORE": {
+			"timeStamp": "2019-10-26T21:52:03.312Z"
+		},
+		"__UI__readMe": {
+			"timeStamp": "2019-10-29T17:46:26.073Z"
+		},
+		"4D_FormEvent_text": {
+			"timeStamp": "2019-10-26T21:52:03.329Z"
+		},
+		"Import_updateObj": {
+			"timeStamp": "2019-10-26T21:52:03.310Z"
+		},
+		"WIN_open_inCurrentWinByObj": {
+			"timeStamp": "2019-10-26T21:52:03.324Z"
+		},
+		"Err_set_object": {
+			"timeStamp": "2019-10-26T21:52:03.315Z"
+		},
+		"Err_check_methodParams": {
+			"timeStamp": "2019-10-26T21:52:03.329Z"
+		},
+		"ProsObj": {
+			"timeStamp": "2019-10-26T21:52:03.294Z"
+		},
+		"Import_subform_controller": {
+			"timeStamp": "2019-10-30T15:36:15.535Z"
+		},
+		"Struct_get_tableObj": {
+			"timeStamp": "2019-10-26T21:52:03.308Z"
+		},
+		"Font_get_size": {
+			"timeStamp": "2019-10-26T21:52:03.326Z"
+		},
+		"dataCol_to_2DtextArray": {
+			"timeStamp": "2019-11-04T21:22:51.295Z"
+		},
+		"Err_CLEAR_4Dvars": {
+			"timeStamp": "2019-10-26T21:52:03.316Z"
+		},
+		"IMPORTER_METHOD": {
+			"timeStamp": "2019-10-30T13:56:03.239Z",
+			"attributes": {
+				"shared": true,
+				"preemptive": "incapable"
+			}
+		},
+		"IMPORT_TO_RECORDS": {
+			"timeStamp": "2019-10-26T21:52:03.342Z"
+		},
+		"Import_RUN": {
+			"timeStamp": "2019-10-26T21:52:03.308Z"
+		},
+		"Struct_get_tableRelationObj": {
+			"timeStamp": "2019-10-26T21:52:03.334Z"
+		},
+		"Object_exists": {
+			"timeStamp": "2019-10-26T21:52:03.330Z"
+		},
+		"4D_alert_test": {
+			"timeStamp": "2019-10-26T21:52:03.321Z"
+		},
+		"TPL_get_element": {
+			"timeStamp": "2019-10-26T21:52:03.341Z"
+		},
+		"Struct_collection": {
+			"timeStamp": "2019-10-26T21:52:03.336Z"
+		},
+		"Text_parse_toCollection": {
+			"timeStamp": "2019-10-30T13:56:03.240Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Table_get_PKpointer": {
+			"timeStamp": "2019-10-26T21:52:03.333Z"
+		},
+		"Struct_choose_byMenu": {
+			"timeStamp": "2019-10-26T21:52:03.338Z"
+		},
+		"Text_parse_to2Darray": {
+			"timeStamp": "2019-10-30T13:56:03.240Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"Compiler_Arrays": {
+			"timeStamp": "2019-10-30T15:38:29.595Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Err_get_errStackCol": {
+			"timeStamp": "2019-10-26T21:52:03.315Z"
+		},
+		"ERR_INSTALL_HANDLER": {
+			"timeStamp": "2019-10-26T21:52:03.313Z"
+		},
+		"Parser_read_importFile": {
+			"timeStamp": "2019-10-30T13:56:03.240Z"
+		},
+		"ERR_Check": {
+			"timeStamp": "2019-10-26T21:52:03.314Z"
+		},
+		"UI_PROCESS": {
+			"timeStamp": "2019-11-04T21:34:38.222Z"
+		},
+		"4D_request": {
+			"timeStamp": "2019-10-26T21:52:03.323Z",
+			"attributes": {
+				"preemptive": "incapable"
+			}
+		},
+		"WIN_open_inCurrentWindow": {
+			"timeStamp": "2019-10-26T21:52:03.325Z"
+		},
+		"Import_paramObj": {
+			"timeStamp": "2019-10-30T13:56:03.240Z"
+		},
+		"isOK": {
+			"timeStamp": "2019-10-26T21:52:03.294Z"
+		},
+		"app_name_verison": {
+			"timeStamp": "2019-10-26T21:52:03.310Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"OBJECT_GET_bestSize": {
+			"timeStamp": "2019-10-26T21:52:03.328Z"
+		},
+		"Struct_get_relatedOneField": {
+			"timeStamp": "2019-10-26T21:52:03.335Z"
+		},
+		"Parser_sub_form_controller": {
+			"timeStamp": "2019-11-04T21:41:05.813Z"
+		},
+		"ERR_LOG_ONLY": {
+			"timeStamp": "2019-10-26T21:52:03.314Z"
+		},
+		"dataCol_split_text": {
+			"timeStamp": "2019-10-30T16:41:25.846Z"
+		},
+		"ERR_HANDLER": {
+			"timeStamp": "2019-10-26T21:52:03.312Z"
+		},
+		"Str_encode_forStyledText": {
+			"timeStamp": "2019-10-26T21:52:03.325Z"
+		},
+		"Import_sub_form_controller": {
+			"timeStamp": "2019-11-04T21:36:32.221Z"
+		},
+		"Struct_get_relatedManyFields": {
+			"timeStamp": "2019-10-26T21:52:03.336Z"
+		},
+		"File_exists": {
+			"timeStamp": "2019-10-26T21:52:03.295Z",
+			"attributes": {
+				"preemptive": "capable"
+			}
+		},
+		"Compiler_Variables_Inter": {
+			"timeStamp": "2019-10-30T15:38:29.594Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Variables": {
+			"timeStamp": "2019-10-30T15:38:29.594Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Text_parse_toJSONcollection": {
+			"timeStamp": "2019-10-30T13:56:03.240Z"
+		},
+		"Text_parse_toFieldCollections": {
+			"timeStamp": "2019-10-30T13:56:03.240Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"ERR_set_hostMethod": {
+			"timeStamp": "2019-10-26T21:52:03.317Z"
+		},
+		"appObj": {
+			"timeStamp": "2019-10-26T21:52:03.318Z"
+		},
+		"Err_get_hostMethod": {
+			"timeStamp": "2019-10-26T21:52:03.317Z"
+		},
+		"4D_alert_Format_text": {
+			"timeStamp": "2019-10-26T21:52:03.319Z"
+		},
+		"Parser_init": {
+			"timeStamp": "2019-10-26T21:52:03.299Z"
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2019-10-30T17:12:21.053Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"dataCol_parse_to_records": {
+			"timeStamp": "2019-10-30T16:51:27.324Z"
+		},
+		"__readMe": {
+			"timeStamp": "2020-01-05T18:58:47.632Z"
+		},
+		"4D_test_dialogs": {
+			"timeStamp": "2019-10-26T21:52:03.323Z"
+		},
+		"Parse_data_collection": {
+			"timeStamp": "2019-10-30T16:20:55.524Z"
+		},
+		"UI_form_controller": {
+			"timeStamp": "2019-11-04T21:50:28.614Z"
+		},
+		"Struct_get_fieldObj": {
+			"timeStamp": "2019-10-26T21:52:03.307Z"
+		},
+		"OB_success": {
+			"timeStamp": "2019-10-26T21:52:03.300Z"
+		},
+		"OBJECT_SET_CoordByObj": {
+			"timeStamp": "2019-10-26T21:52:03.327Z"
+		},
+		"ST_get_styleTag": {
+			"timeStamp": "2019-10-26T21:52:03.324Z"
+		},
+		"Resize_window": {
+			"timeStamp": "2019-10-26T21:52:03.326Z"
+		},
+		"Import_match_headerToField": {
+			"timeStamp": "2019-10-26T21:52:03.306Z"
+		},
+		"(Struct_collection)": {
+			"timeStamp": "2019-10-26T21:52:03.305Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Struct_get_relatedManyFields)": {
+			"timeStamp": "2019-10-26T21:52:03.332Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Struct_get_relatedOneFields)": {
+			"timeStamp": "2019-10-26T21:52:03.333Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Parser_get_map)": {
+			"timeStamp": "2019-10-26T21:52:03.301Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(StructJSON_field_object)": {
+			"timeStamp": "2019-10-26T21:52:03.330Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Parse_text_to_array)": {
+			"timeStamp": "2019-10-26T21:52:03.296Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Struct_choose_byMenu)": {
+			"timeStamp": "2019-10-26T21:52:03.306Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Struct_get_tableRelationObj)": {
+			"timeStamp": "2019-10-26T21:52:03.331Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(Parse_text_to_collection1)": {
+			"timeStamp": "2019-10-26T21:52:03.339Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "incapable"
+			}
+		},
+		"(StructJSON_table_object)": {
+			"timeStamp": "2019-10-26T21:52:03.331Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}

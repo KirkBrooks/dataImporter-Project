@@ -1,0 +1,300 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "792pt",
+		"paperHeight": "611pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"mapListbox": {
+					"type": "listbox",
+					"top": 36,
+					"left": 3,
+					"width": 656,
+					"height": 165,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"headerHeight": "20px",
+					"dataSource": "Form:C1466.dataMap",
+					"selectedItemsSource": "Form:C1466.selectedFields",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#C0C0C0",
+					"alternateFill": "#C6DBF9",
+					"method": "ObjectMethods/mapListbox.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "This:C1470.impField",
+							"width": 129,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#808080",
+							"alternateFill": "#E2EFFF",
+							"textAlign": "right",
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Import Field",
+								"stroke": "#0000CD"
+							},
+							"footer": {
+								"name": "Footer1",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "This:C1470.import",
+							"dataSourceTypeHint": "boolean",
+							"width": 50,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"controlType": "checkbox",
+							"alternateFill": "#C6DBF9",
+							"textAlign": "center",
+							"verticalAlign": "middle",
+							"events": [
+								"onClick"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Import",
+								"stroke": "#0000CD",
+								"textAlign": "center",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer5",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "This:C1470.targetField.table",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"alternateFill": "#E2EFFF",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Table",
+								"stroke": "#0000CD"
+							},
+							"footer": {
+								"name": "Footer2",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "This:C1470.targetField.name",
+							"width": 216,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"alternateFill": "#E2EFFF",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Target Field",
+								"stroke": "#0000CD"
+							},
+							"footer": {
+								"name": "Footer3",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "This:C1470.targetField.prop",
+							"width": 142,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"alternateFill": "#C6DBF9",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Property",
+								"stroke": "#0000CD"
+							},
+							"footer": {
+								"name": "Footer4",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 11,
+					"left": 18,
+					"width": 113,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "Import Table : "
+				},
+				"Variable": {
+					"type": "input",
+					"top": 11,
+					"left": 150,
+					"width": 253,
+					"height": 17,
+					"dataSource": "Form:C1466.table",
+					"focusable": false,
+					"enterable": false,
+					"placeholder": "Click to set the Import Table",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_setTable": {
+					"type": "button",
+					"top": 5,
+					"left": 34,
+					"width": 374,
+					"height": 27,
+					"focusable": false,
+					"style": "custom",
+					"borderStyle": "dotted",
+					"method": "ObjectMethods/btn_setTable.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_match": {
+					"type": "button",
+					"top": 7,
+					"left": 418,
+					"width": 96,
+					"height": 25,
+					"stroke": "#696969",
+					"focusable": false,
+					"text": "Match Fields",
+					"style": "bevel",
+					"method": "ObjectMethods/btn_match.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ListBox": {
+					"type": "listbox",
+					"top": 242,
+					"left": 3,
+					"width": 656,
+					"height": 238,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"hideExtraBlankRows": true,
+					"dataSource": "Form:C1466.paramObj.data",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/ListBox.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": []
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 206,
+					"left": 0,
+					"width": 662,
+					"height": 10,
+					"sizingX": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_runImport": {
+					"type": "button",
+					"top": 7,
+					"left": 563,
+					"width": 96,
+					"height": 25,
+					"sizingX": "move",
+					"stroke": "#696969",
+					"focusable": false,
+					"text": "Do Import",
+					"style": "bevel",
+					"method": "ObjectMethods/btn_runImport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 222,
+					"left": 8,
+					"width": 137,
+					"height": 17,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": "Number of records :"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 222,
+					"left": 160,
+					"width": 104,
+					"height": 17,
+					"dataSource": "Form:C1466.paramObj.data.length",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "##,###,##0",
+					"dragging": "none",
+					"dropping": "custom"
+				}
+			}
+		}
+	]
+}
